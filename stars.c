@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(int argc, char **argv)
 {
-	system ("chcp 1253");
     int gr,st, n, k;
-printf("ÅéóÜãåôå áñéèìü ãñáììÞò: ");
+printf("Give a number of line: ");
 scanf("%d", &n);
 printf("\n\n\n");
 
@@ -50,7 +49,7 @@ for (gr=1; gr<=n; gr++)
 printf("\n\n\n");
 
 
-for(gr=1; gr<=n; gr++)//Í
+for(gr=1; gr<=n; gr++)
 {
 for(st=1; st<=n; st++)
 {
