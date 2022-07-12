@@ -1,4 +1,4 @@
-#include <stdio.h>/*οδηγία για είσοδο-έξοδο δεδομένων*/
+#include <stdio.h>
 
 int main(int argc, char **argv)
 {
