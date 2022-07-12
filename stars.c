@@ -3,10 +3,10 @@ int main(int argc, char **argv)
 {
 	system ("chcp 1253");
     int gr,st, n, k;
-printf("Εισάγετε αριθμό γραμμής: ");
+printf("Γ…Γ©Γ³ΓΓ£Γ¥Γ΄Γ¥ Γ΅Γ±Γ©Γ¨Γ¬ΓΌ Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²: ");
 scanf("%d", &n);
 printf("\n\n\n");
-/*1ο σχήμα*/
+
 for (gr=1; gr<=n; gr++)
 {
 	for (st=1; st<=gr; st++)
@@ -15,10 +15,10 @@ for (gr=1; gr<=n; gr++)
 		printf("\n");	
 }
 printf("\n\n\n");
-/*2ο σχήμα*/
-for (gr=1; gr<=n; gr++)/*γραμμες*/
+
+for (gr=1; gr<=n; gr++)
 {
-	for (k=gr; k<=n-1; k++)/*k=κενά*/
+	for (k=gr; k<=n-1; k++)
 	{
 		printf(" ");
 }
@@ -33,10 +33,10 @@ for (st=1; st<=gr; st++)
 
 printf("\n\n\n");
 
-/*3ο σχήμα*/
+
 for (gr=1; gr<=n; gr++)
 {
-	for (k=gr; k<=n; k++)/*k=κενά*/
+	for (k=gr; k<=n; k++)
 	{
 		printf(" ");
 }
@@ -49,8 +49,8 @@ for (gr=1; gr<=n; gr++)
 }	
 printf("\n\n\n");
 
-/*4ο σχήμα*/
-for(gr=1; gr<=n; gr++)//Ν
+
+for(gr=1; gr<=n; gr++)//Γ
 {
 for(st=1; st<=n; st++)
 {
